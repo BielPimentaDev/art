@@ -26,31 +26,31 @@ export default function Homepage() {
                 <Button title={"Explorar"}/>
                 <ul className='flex gap-8 justify-center sm:justify-start'>
                     <li>
-                        <h3 className='font-bold text-2xl'>+2 mil</h3>
+                        <h3 className='font-bold text-3xl'>+2 mil</h3>
                         <p className='text-center'>Artistas</p>
                     </li>
                     <li>
-                        <h3 className='font-bold text-2xl'>+16 mil</h3>
+                        <h3 className='font-bold text-3xl'>+16 mil</h3>
                         <p className='text-center'>Avaliações</p>
                     </li>
                     <li>
-                        <h3 className='font-bold text-2xl'>+7 mil</h3>
+                        <h3 className='font-bold text-3xl'>+7 mil</h3>
                         <p className='text-center'>Vendas</p>
                     </li>
                 
                 </ul>
             </div>
-            <img src={imagemDireita} className="w-[35%] hidden sm:block"/>
+            <img src={imagemDireita} className="w-[30%] hidden sm:block "/>
 
         </section>
 
-        <section className=' flex sm:my-16 sm:flex-row flex-col'>
-            <div className='flex gap-10  sm:flex-row flex-col'>
+        <section className=' flex sm:my-16 sm:flex-row flex-col sm:justify-between  sm:items-start '>
+            <div className='flex gap-12  sm:flex-row flex-col'>
                 <img src={img1}/>
                 <img src={img2}/>
                 <img src={img3}/>
             </div>
-            <div className='sm:mx-auto my-16 sm:my-0'>
+            <div className='sm: my-16 sm:my-0 sm:w-[30%]'>
                 <h3 className='font-semibold text-4xl mb-4 text-center sm:text-start  '>Confira as<br className='sm:block hidden'/> últimas coleções</h3>
                 <Button title="VER MAIS"/>
             </div>

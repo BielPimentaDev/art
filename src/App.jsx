@@ -7,7 +7,7 @@ function App() {
 
 
   return (
-     <div className="sm:m-auto sm:w-[90%] w-[100%]  p-8 max-w-[1400px] ">
+     <div className="m-auto w-[95%]  max-w-[1400px] ">
        <Homepage />
      </div>
 
